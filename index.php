@@ -1,7 +1,3 @@
-<?php
-    $stylesPath = get_bloginfo("template_directory") . "/css/";
-    $scriptsPath = get_bloginfo("template_directory") . "/scripts/";
-?>
 <!doctype html>
 <html>
     <?php include(TEMPLATEPATH . '/head.php') ?>

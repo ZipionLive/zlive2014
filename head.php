@@ -5,23 +5,23 @@
     <!-- leave this for stats -->
     
     <!-- stylesheets -->
-    <link rel="stylesheet" href="<?php echo($stylesPath . 'normalize.css'); ?>" type="text/css" media="screen" />
-    <link rel="stylesheet" href="<?php echo($stylesPath . 'base.css'); ?>" type="text/css" media="screen" />
-    <link rel="stylesheet" href="<?php echo($stylesPath . '/grid.css'); ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="<?php getPath($stylesPath, 'normalize.css'); ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="<?php getPath($stylesPath, 'base.css'); ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="<?php getPath($stylesPath, '/grid.css'); ?>" type="text/css" media="screen" />
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
     
     <!-- libraries and scripts -->
     <!--[if lt IE9]>
-        <script type="text/javascript" src="<?php echo($scriptsPath . 'jquery-1.10.0.js'); ?>"></script>
+        <script type="text/javascript" src="<?php getPath($scriptsPath, 'jquery-1.10.0.js'); ?>"></script>
     <![endif]-->
     <!--[if gte IE9]>
-        <script type="text/javascript" src="<?php echo($scriptsPath . 'jquery.js'); ?>"></script>
+        <script type="text/javascript" src="<?php getPath($scriptsPath, 'jquery.js'); ?>"></script>
    <![endif]-->
     <!--[if !IE]> -->
-        <script type="text/javascript" src="<?php echo($scriptsPath . 'jquery.js'); ?>"></script>
+        <script type="text/javascript" src="<?php getPath($scriptsPath, 'jquery.js'); ?>"></script>
     <!-- <![endif]-->
-    <script type="text/javascript" src="<?php echo($scriptsPath . 'modernizr.js'); ?>"></script>
-    <script type="text/javascript" src="<?php echo($scriptsPath . 'scripts.js'); ?>"></script>
+    <script type="text/javascript" src="<?php getPath($scriptsPath, 'modernizr.js'); ?>"></script>
+    <script type="text/javascript" src="<?php getPath($scriptsPath, 'scripts.js'); ?>"></script>
     
     <!-- feeds -->
     <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
