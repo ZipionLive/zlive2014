@@ -1,0 +1,38 @@
+/*
+Theme Name: ZLive 2014
+Theme URI: http://zipion-live.be/
+Description: Theme for my amazing, incredible, brand new blog.
+Version: 0.1
+Author: Alexandre "ZipionLive" Engelhardt
+ 
+ZLive 2014 Theme by Alexandre Engelhardt || http://zipion-live.be
+ 
+*/
+/* =============================================================================
+   Site Styles
+   ========================================================================== */
+
+/* =============================================================================
+   Page Styles
+   ========================================================================== */
+
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
+
+/* Tablet Portrait size to Base 996px */
+@media only screen and (min-width: 768px) and (max-width: 995px) {}
+
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size */
+@media only screen and (max-width: 479px) {}
+
+
+/* =============================================================================
+   Font-Face
+   ========================================================================== */
