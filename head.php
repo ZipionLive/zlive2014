@@ -5,8 +5,8 @@
     <!-- leave this for stats -->
     
     <!-- stylesheets -->
-    <link rel="stylesheet" href="<?php getPath($stylesPath, 'normalize.css'); ?>" type="text/css" media="screen" />
-    <link rel="stylesheet" href="<?php getPath($stylesPath, 'base.css'); ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="<?php getPath($stylesPath, '/normalize.css'); ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="<?php getPath($stylesPath, '/base.css'); ?>" type="text/css" media="screen" />
     <link rel="stylesheet" href="<?php getPath($stylesPath, '/grid.css'); ?>" type="text/css" media="screen" />
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
     

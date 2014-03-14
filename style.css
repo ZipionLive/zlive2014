@@ -1,16 +1,68 @@
 /*
-Theme Name: ZLive 2014
-Theme URI: http://zipion-live.be/
-Description: Theme for my amazing, incredible, brand new blog.
-Version: 0.1
-Author: Alexandre "ZipionLive" Engelhardt
- 
-ZLive 2014 Theme by Alexandre Engelhardt || http://zipion-live.be
- 
+Responsive 996px grid system ~ Style CSS.
+Copyright 2013, Josh Cope
 */
+
 /* =============================================================================
    Site Styles
    ========================================================================== */
+
+/*=====================*/
+/*===== Page wide =====*/
+/*=====================*/
+
+html {
+    font-family: 'ubunturegular', 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+    color: #303030;
+}
+
+strong {
+    font-family: 'ubuntumedium', 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: normal;
+}
+
+em {
+    font-family: 'ubuntuitalic', 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/*==================*/
+/*===== Header =====*/
+/*==================*/
+
+header {
+    height: 250px;
+    background-image: url('images/zl-cog.gif');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+
+header h1 {
+    font-family: 'ubuntulight', 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 156px;
+    font-weight: normal;
+    margin: 0;
+    position: relative;
+    bottom: 15px;
+}
+
+
+header h1 a {
+    color: #303030;
+    text-decoration: none;
+}
+
+header h1 a strong {
+    color: #be0041;
+}
+
+header h2 {
+    position: relative;
+    bottom: 40px;
+    margin: 0;
+    font-size: 38px;
+}
+
 
 /* =============================================================================
    Page Styles
@@ -21,18 +73,121 @@ ZLive 2014 Theme by Alexandre Engelhardt || http://zipion-live.be
    ========================================================================== */
 
 /* Tablet Portrait size to Base 996px */
-@media only screen and (min-width: 768px) and (max-width: 995px) {}
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+    header {
+        background-size: 150px;
+        height: 180px;
+    }
+    
+    header h1 {
+        font-size: 120px;
+    }
+    
+    header h2 {
+        font-size: 28px;
+    }
+}
 
 /* All Mobile Sizes */
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+    
+}
 
 /* Mobile Landscape Size to Tablet Portrait */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+}
 
 /* Mobile Portrait Size to Mobile Landscape Size */
-@media only screen and (max-width: 479px) {}
+@media only screen and (max-width: 479px) {
+    
+}
 
 
 /* =============================================================================
    Font-Face
    ========================================================================== */
+
+@font-face {
+    font-family: 'ubuntubold';
+    src: url('fonts/ubuntu-b-webfont.eot');
+    src: url('fonts/ubuntu-b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ubuntu-b-webfont.woff') format('woff'),
+         url('fonts/ubuntu-b-webfont.ttf') format('truetype'),
+         url('fonts/ubuntu-b-webfont.svg#ubuntubold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('fonts/ubuntu-l-webfont.eot');
+    src: url('fonts/ubuntu-l-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ubuntu-l-webfont.woff') format('woff'),
+         url('fonts/ubuntu-l-webfont.ttf') format('truetype'),
+         url('fonts/ubuntu-l-webfont.svg#ubuntulight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntumedium';
+    src: url('fonts/ubuntu-m-webfont.eot');
+    src: url('fonts/ubuntu-m-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ubuntu-m-webfont.woff') format('woff'),
+         url('fonts/ubuntu-m-webfont.ttf') format('truetype'),
+         url('fonts/ubuntu-m-webfont.svg#ubuntumedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntu_monobold';
+    src: url('fonts/ubuntumono-b-webfont.eot');
+    src: url('fonts/ubuntumono-b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ubuntumono-b-webfont.woff') format('woff'),
+         url('fonts/ubuntumono-b-webfont.ttf') format('truetype'),
+         url('fonts/ubuntumono-b-webfont.svg#ubuntu_monobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntu_monoregular';
+    src: url('fonts/ubuntumono-r-webfont.eot');
+    src: url('fonts/ubuntumono-r-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ubuntumono-r-webfont.woff') format('woff'),
+         url('fonts/ubuntumono-r-webfont.ttf') format('truetype'),
+         url('fonts/ubuntumono-r-webfont.svg#ubuntu_monoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('fonts/ubuntu-r-webfont.eot');
+    src: url('fonts/ubuntu-r-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ubuntu-r-webfont.woff') format('woff'),
+         url('fonts/ubuntu-r-webfont.ttf') format('truetype'),
+         url('fonts/ubuntu-r-webfont.svg#ubunturegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntuitalic';
+    src: url('fonts/ubuntu-ri-webfont.eot');
+    src: url('fonts/ubuntu-ri-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ubuntu-ri-webfont.woff') format('woff'),
+         url('fonts/ubuntu-ri-webfont.ttf') format('truetype'),
+         url('fonts/ubuntu-ri-webfont.svg#ubuntuitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
